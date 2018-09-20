@@ -12,6 +12,7 @@ test("renders text using each item in items prop array", () => {
       items: ["red", "blue", "green"]
     }
   });
+  expect(wrapper.element).toMatchSnapshot();
 
   expect(wrapper.text()).toContain("red");
   expect(wrapper.text()).toContain("blue");

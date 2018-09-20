@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders text using each item in items prop array 1`] = `
+<ul>
+  <li>
+    
+    red
+  
+  </li>
+  <li>
+    
+    blue
+  
+  </li>
+  <li>
+    
+    green
+  
+  </li>
+</ul>
+`;
